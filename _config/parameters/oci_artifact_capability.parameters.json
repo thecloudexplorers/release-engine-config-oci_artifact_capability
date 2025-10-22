@@ -8,37 +8,16 @@
       }
     },
     "resourceGroupName": {
-      "value": ""
+      "value": "#{applicationAbbreviation}#-#{environmentAbbreviation}#-rg001"
     },
     "location": {
       "value": "#{workload_location}#"
     },
-    "acrSku": {},
+    "acrSku": {
+      "value": "Basic"
+    },
     "containerRegistryName": {
-      "value": ""
+      "value": "#{applicationAbbreviation}#-#{environmentAbbreviation}#-acr001"
     }
   }
 }
-
-
-{
-  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
-  "contentVersion": "1.0.0.0",
-  "parameters": {
-    "resourceLocation": {
-      "value": "#{workload_location}#"
-    },
-    "tags": {
-      "value": {
-        "Environment": "#{environmentAbbreviation}#"
-      }
-    },
-    "resourceGroupName": {
-      "value": "#{applicationAbbreviation}#-#{environmentAbbreviation}#-rg001"
-    },
-    "storageAccountName": {
-      "value": "#{applicationAbbreviation}##{environmentAbbreviation}#st001"
-    }
-  }
-}
-
