@@ -10,9 +10,9 @@ resources:
 
     - repository: workload # REPOSITORY ALIAS ###  MUST NOT  ### BE CHANGED
       type: github
-      name: thecloudexplorers/release-engine-pattern-template
+      name: thecloudexplorers/release-engine-pattern-oci_artifact_capability
       endpoint: thecloudexplorers
-      ref: refs/tags/v1.2.0
+      ref: refs/heads/users/wcamargo/initial-workload-setup
 
 trigger:
   - main
