@@ -1,3 +1,4 @@
 variables:
   environmentAbbreviation: dev
   workloadLocation: westeurope  
+  acrSku: Basic

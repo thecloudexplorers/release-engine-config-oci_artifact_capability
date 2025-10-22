@@ -7,10 +7,10 @@ variables:
   landingZoneAbbreviation: "ptn" # Abbreviation of the Landing Zone Name
 
   # Name of the Application deployed in the Landing Zone
-  applicationName: "multi-stage-pattern-example"
-  applicationAbbreviation: "msg" # Abbreviation of the Application Name
-  
-  workload: multi_stage_pattern
+  applicationName: "oci artifact capability" # Name of the Application
+  applicationAbbreviation: "oac" # Abbreviation of the Application Name
+
+  workload: oci_artifact_capability
   workload_location: westeurope
 
   # Must be replaced by the Workload dedicated SPN of the lowest environment.
