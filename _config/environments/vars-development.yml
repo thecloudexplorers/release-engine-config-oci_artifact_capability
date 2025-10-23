@@ -1,4 +1,5 @@
 variables:
   environmentAbbreviation: dev
   workloadLocation: westeurope  
-  acrSku: Basic
+  acrSku: Basic    
+  serviceConnection: IacServiceConnection
